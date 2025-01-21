@@ -87,9 +87,6 @@ Some knowledge of how [Azure Bicep templates][azure-bicep] work is really helpfu
 - Once the configuration files are downloaded, you can disable the SSH port 22 on the Azure Network Security Group for added security.
 - [Azure Accelerated Networking][azure-accelerated-nw] is enabled by default for better network performance, this limits the choice of Azure VM sizes.
 
-# Azure ARM Version
-The earlier version of AzureWireGuard used [Azure ARM templates][azure-arm]. It is no longer maintained but is available on the branch named [arm-retired][git-repo-retired]
-
 # Contributing
 - Fork the repo on [GitHub][git-repo]
 - Clone the project to your own machine
@@ -104,8 +101,7 @@ NOTE: Be sure to pull the latest from "upstream" before making a pull request!
 [dns]: https://1.1.1.1/
 [ubuntu]: https://www.ubuntu.com/server
 [azure-arm]: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
-[git-repo]: https://github.com/vijayshinva/AzureWireGuard
-[git-repo-retired]: https://github.com/vijayshinva/AzureWireGuard/tree/arm-retired
+[git-repo]: https://github.com/DetroitTechno/AzureWireGuardBicep
 [azure-bicep-whatif]: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-what-if
 [azure-bicep-ps]: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
 [azure-bicep-cli]: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
