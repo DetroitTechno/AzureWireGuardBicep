@@ -62,7 +62,7 @@ Some knowledge of how [Azure Bicep templates][azure-bicep] work is really helpfu
     | adminUsername | Admin Username for the Virtual Machine | vmadmin |
     | adminPassword | Password for the Virtual Machine | Prompts during deployment |
     | location      | Location to deploy the resources. The location specified in the `az deployment` command does not control the location of the resources. It is the location of the Azure Deployment | eastus |
-    | vmSize        | Size of the Virtual Machine | Standard_DS2_v2 |
+    | vmSize        | Size of the Virtual Machine | Standard_B2S |
     | tags          | Tags that are attached to the resources created | DeployedOn |
 
 # How to download WireGuard Client Configuration files ?
